@@ -1,0 +1,31 @@
+public class Light {
+    public static void main(String[] args) {
+        int lightspeed;
+        long days;
+        long seconds;
+        long distance;
+        float distance_km;
+
+        // approximately light speed miles / second
+        lightspeed = 186000;
+
+        // How many days?
+        days = 5;
+
+        // Convert to seconds
+        seconds = days * 24 * 60 * 60;
+
+        // Get distance
+        distance = lightspeed * seconds;
+
+        // Convert miles to kilometers
+        distance_km = distance / 1.6f;
+
+
+        System.out.print("За " + days);
+        System.out.print(" дней ссвет пройдет около ");
+        System.out.println(distance + " миль или " + distance_km + " километров");
+
+    }
+
+}
