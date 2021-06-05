@@ -1,0 +1,12 @@
+public class CircleArea {
+    public static void main(String[] args) {
+        double p, r, a;
+
+        r = 10.8;
+        p = 3.1416;
+        a = p * r * r;
+
+        System.out.println("Площадь круга будет : "+ a);
+
+    }
+}
